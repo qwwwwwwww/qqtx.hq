@@ -1,0 +1,27 @@
+<html>
+ <head> 
+ <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <title>QQ头像</title>
+ <style>
+ img{
+    width:344px;
+    height:344px;
+    }
+  button{
+    margin-top:10px;
+    color:red
+    }
+   </style>
+  </head>
+ <body>
+   <img src="" >
+   <button onclick="a()">输入QQ号</button>
+  <script>
+  function a(){
+  let qq = prompt("请输入QQ号");
+   let qqq = "http://q1.qlogo.cn/g?b=qq&nk="+qq+"&s=640"
+    let img = document.querySelector("img")  
+  img.src = qqq}
+  </script>
+ </body>
+</html>
